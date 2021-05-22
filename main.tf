@@ -3,7 +3,7 @@ terraform {
     organization = "thrillho"
 
     workspaces {
-      name = "terraform-consul-vault-tutorial"
+      name = "learn-terraform-pipelines-consul"
     }
   }
   required_providers {
