@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "thrillho"
 
     workspaces {
-      name = "learn-terraform-pipelines-consul"
+      name = "terraform-consul-vault-tutorial"
     }
   }
   required_providers {
